@@ -19,9 +19,11 @@ function validar (form){
     }
     let deporte=form.deporte.value
     if(deporte==="ninguno"){
-        alert("Por favor, seleccione un deporte favorto")
+        alert("Por favor, seleccione un deporte favorito")
         return false;
     }
     // Si todo es valido
+    alert("Formulario enviado con éxito");
     return true;
+    
 }
